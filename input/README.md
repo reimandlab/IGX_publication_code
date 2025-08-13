@@ -2,7 +2,7 @@
 
 ## Detailes and instructions for input files
 
-Click any item to go to its section below:
+List of input files/folders (clickable):
 - [NIHMS948705-supplement-8.xlsx](#1)
 - [mc3.v0.2.8.PUBLIC.maf](#2)
 
