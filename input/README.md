@@ -83,30 +83,16 @@ saveRDS(subtypes, "PanCancerAtlas_subtypes.rds")
 
 ### <a id="8"></a>expr_tpm_20_genes_in_tcga.rds
 Follow the steps below to generate this file:
-```bash
-1) download the mRNA expression data from TCGAbiolinks with the following arguments: 
-    project = "TCGA-BRCA"
-    data.category = "Transcriptome Profiling"
-    data.type = "Gene Expression Quantification"
-    experimental.strategy = "RNA-Seq"
-    workflow.type = "STAR - Counts"
 
-2) extract the "TPM" data and turn it into a dataframe with columns {gene_name, gene_type, <TCGA barcodes ...>}
-    
-3) Filter to only include the 20 genes --> gene_name %in% c("CTLA4", "LAG3", "CD274", "PDCD1", "GZMA", "PRF1", "MEN1", 
-                                                            "JUN", "ARID1A", "VHL", "FBXW7", "CASP3", "NPM1", "EGFR", 
-                                                            "MYC", "COX6C", "HIF1A", "TP53", "ERBB2", "AXIN2")
-
-4) Filter TCGA barcodes to primary tumor samples
-
-5) Convert TCGA barcodes to patient-id (TCGA-TSS-Participant)
-
-6) Remove patient-ids with duplicated samples (if there is any)
-
-7) Filter patient-ids to those included in the IGX analysis (refer to "tcga_all_datasets.rds")
-
+1) download the mRNA expression data from TCGAbiolinks with the following arguments: {project = "TCGA-BRCA", data.category = "Transcriptome Profiling", data.type = "Gene Expression Quantification", experimental.strategy = "RNA-Seq", workflow.type = "STAR - Counts"}.
+2) extract the "TPM" data and turn it into a dataframe with columns {gene_name, gene_type, <TCGA barcodes ...>}.
+3) Filter to only include these 20 genes: {_CTLA4_, _LAG3_, _CD274_, _PDCD1_, _GZMA_, _PRF1_, _MEN1_, _JUN_, _ARID1A_, _VHL_, _FBXW7_, _CASP3_, _NPM1_, _EGFR_, _MYC_, _COX6C_, _HIF1A_, _TP53_, _ERBB2_, _AXIN2_}.
+4) Filter TCGA barcodes to primary tumor samples.
+5) Convert TCGA barcodes to patient-id, i.e. _TCGA-TSS-Participant_.
+6) Remove patient-ids with duplicated samples (if there is any).
+7) Filter patient-ids to those included in the IGX analysis (refer to the file "intermediate/tcga_all_datasets.rds").
 8) Save this dataframe as an RDS object
-```
+
 
 
 
