@@ -12,14 +12,19 @@ List of input files/folders:
 - [PanCancerAtlas_subtypes.rds](#7)
 - [expr_tpm_20_genes_in_tcga.rds](#8)
 
+---
 
-#### <a id="1"></a>NIHMS948705-supplement-8.xlsx
+### <a id="1"></a>NIHMS948705-supplement-8.xlsx
 List of 299 cancer driver genes, downloaded from .
 
-#### <a id="2"></a>mc3.v0.2.8.PUBLIC.maf
+---
+
+### <a id="2"></a>mc3.v0.2.8.PUBLIC.maf
 Download this file from https://gdc.cancer.gov/about-data/publications/pancanatlas.
 
-#### <a id="3"></a>tcga_cna_gistic/
+---
+
+### <a id="3"></a>tcga_cna_gistic/
 Results of GISTIC2 analysis of TCGA tumors. With the current directory being the `input` folder, run the following bash script to generate the `tcga_cna_gistic` folder. The data is downloaded from FireBrowse.
 ```bash
 #!/usr/bin/env bash
@@ -49,16 +54,24 @@ for f in *.tar.gz; do
 done
 ```
 
-#### <a id="4"></a>tcga_code_tables/
+<hr style="border: 0; height: 1px; background: #eee;" />
+
+### <a id="4"></a>tcga_code_tables/
 TCGA code tables downloaded from .
 
-#### <a id="5"></a>TCGA.Kallisto.fullIDs.cibersort.relative.tsv
+---
+
+### <a id="5"></a>TCGA.Kallisto.fullIDs.cibersort.relative.tsv
 Results of CIBERSORT analysis of TCGA tumors, downloaded from .
 
-#### <a id="6"></a>TCGA-CDR-SupplementalTableS1.xlsx
+---
+
+### <a id="6"></a>TCGA-CDR-SupplementalTableS1.xlsx
 TCGA clinical information of patients, downloaded from .
 
-#### <a id="7"></a>PanCancerAtlas_subtypes.rds
+---
+
+### <a id="7"></a>PanCancerAtlas_subtypes.rds
 Cancer subtype annotation of TCGA tumors. With the current directory being the `input` folder, run the following R code to generate this file.
 ```R
 library(TCGAbiolinks)
@@ -66,7 +79,9 @@ subtypes <- PanCancerAtlas_subtypes()
 saveRDS(subtypes, "PanCancerAtlas_subtypes.rds")
 ```
 
-#### <a id="8"></a>expr_tpm_20_genes_in_tcga.rds
+---
+
+### <a id="8"></a>expr_tpm_20_genes_in_tcga.rds
 Follow the steps below to generate this file:
 ```bash
 1) download the mRNA expression data from TCGAbiolinks with the following arguments: 
