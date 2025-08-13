@@ -1,0 +1,23 @@
+The file "expr_counts_tcga_brca_lumA.rds" was generated using the following steps:
+
+1) download the mRNA expression data from TCGAbiolinks with the following arguments: 
+    project = "TCGA-BRCA"
+    data.category = "Transcriptome Profiling"
+    data.type = "Gene Expression Quantification"
+    experimental.strategy = "RNA-Seq"
+    workflow.type = "STAR - Counts"
+
+2) extract the "raw counts" and turn the data into a dataframe with columns {gene_id, gene_name, gene_type, <TCGA barcodes ...>}
+    
+3) Filter to protein coding genes --> gene_type == "protein_coding"
+
+4) Filter TCGA barcodes to primary tumor samples
+
+5) Convert TCGA barcodes to patient-id (TCGA-TSS-Participant)
+
+6) Remove patient-ids with duplicated samples (if there is any)
+
+7) Filter patient-ids to those included in the analysis of the IGX found in BRCA-LumA (refer to "tcga_all_datasets.rds", under "BRCA__LumA" and "cna" facets)
+
+8) Save this dataframe as an RDS object
+

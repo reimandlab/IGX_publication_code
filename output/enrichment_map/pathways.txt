@@ -1,0 +1,100 @@
+term_id	term_name	adjusted_p_val
+REAC:R-HSA-112310	Neurotransmitter release cycle	0.00325573243513672
+REAC:R-HSA-112316	Neuronal System	0.00872464050673308
+REAC:R-HSA-1280215	Cytokine Signaling in Immune system	0.00966052554938635
+REAC:R-HSA-196807	Nicotinate metabolism	0.00623057357425749
+REAC:R-HSA-212676	Dopamine Neurotransmitter Release Cycle	0.00092373852687021
+REAC:R-HSA-2672351	Stimuli-sensing channels	0.00184242433393526
+REAC:R-HSA-381426	Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)	0.00092373852687021
+REAC:R-HSA-5576891	Cardiac conduction	0.00872464050673308
+REAC:R-HSA-6783783	Interleukin-10 signaling	6.86402195989856e-05
+REAC:R-HSA-8957275	Post-translational protein phosphorylation	0.000381911791571818
+REAC:R-HSA-9031628	NGF-stimulated transcription	0.00115577273018648
+REAC:R-HSA-9659379	Sensory processing of sound	0.0096908689370018
+REAC:R-HSA-9662360	Sensory processing of sound by inner hair cells of the cochlea	0.00724525259249455
+REAC:R-HSA-983712	Ion channel transport	0.00120632522776576
+GO:0002250	adaptive immune response	0.00872464050673308
+GO:0002269	leukocyte activation involved in inflammatory response	0.0096908689370018
+GO:0002275	myeloid cell activation involved in immune response	0.00872464050673308
+GO:0002478	antigen processing and presentation of exogenous peptide antigen	0.00872464050673308
+GO:0002495	antigen processing and presentation of peptide antigen via MHC class II	0.00837233856710467
+GO:0002504	antigen processing and presentation of peptide or polysaccharide antigen via MHC class II	0.00654561454816623
+GO:0002507	tolerance induction	0.00036117247411332
+GO:0002523	leukocyte migration involved in inflammatory response	0.00872464050673308
+GO:0002526	acute inflammatory response	0.0068735000488957
+GO:0002544	chronic inflammatory response	0.000888004892966364
+GO:0002673	regulation of acute inflammatory response	0.00267785679634203
+GO:0002675	positive regulation of acute inflammatory response	0.0013348878179305
+GO:0002790	peptide secretion	0.00550503646064284
+GO:0003085	negative regulation of systemic arterial blood pressure	0.00973732784519968
+GO:0006082	organic acid metabolic process	0.00701814589527361
+GO:0006775	fat-soluble vitamin metabolic process	0.0068735000488957
+GO:0006835	dicarboxylic acid transport	0.00153290270211493
+GO:0006836	neurotransmitter transport	6.36141388867195e-05
+GO:0006887	exocytosis	0.000956335089563122
+GO:0006953	acute-phase response	0.00872464050673308
+GO:0007268	chemical synaptic transmission	6.86402195989856e-05
+GO:0007269	neurotransmitter secretion	7.10612744456294e-05
+GO:0010817	regulation of hormone levels	0.00092373852687021
+GO:0014047	glutamate secretion	0.0096908689370018
+GO:0015711	organic anion transport	0.00872464050673308
+GO:0015800	acidic amino acid transport	0.00441036132080042
+GO:0015833	peptide transport	0.0093356453658561
+GO:0016079	synaptic vesicle exocytosis	0.00153290270211493
+GO:0017156	calcium-ion regulated exocytosis	0.00023110065003817
+GO:0017157	regulation of exocytosis	0.0093356453658561
+GO:0017158	regulation of calcium ion-dependent exocytosis	0.00365082152750169
+GO:0019369	arachidonate metabolic process	0.00892521651267474
+GO:0019730	antimicrobial humoral response	0.0096908689370018
+GO:0019752	carboxylic acid metabolic process	0.0068735000488957
+GO:0019882	antigen processing and presentation	0.00654561454816623
+GO:0019884	antigen processing and presentation of exogenous antigen	0.00872464050673308
+GO:0023061	signal release	0.000423336121348827
+GO:0030073	insulin secretion	0.00904723009309506
+GO:0030194	positive regulation of blood coagulation	0.0096908689370018
+GO:0030307	positive regulation of cell growth	0.00310366125139611
+GO:0031629	synaptic vesicle fusion to presynaptic active zone membrane	0.00367801974723739
+GO:0032102	negative regulation of response to external stimulus	0.00872464050673308
+GO:0032496	response to lipopolysaccharide	0.00872464050673308
+GO:0032787	monocarboxylic acid metabolic process	0.00872464050673308
+GO:0032940	secretion by cell	0.00120632522776576
+GO:0033559	unsaturated fatty acid metabolic process	0.00367801974723739
+GO:0034097	response to cytokine	0.00153290270211493
+GO:0034341	response to type II interferon	6.36141388867195e-05
+GO:0042391	regulation of membrane potential	0.00153290270211493
+GO:0042886	amide transport	0.0096908689370018
+GO:0043436	oxoacid metabolic process	0.00872464050673308
+GO:0043604	amide biosynthetic process	0.00567003610051859
+GO:0044272	sulfur compound biosynthetic process	0.00846357309426273
+GO:0045055	regulated exocytosis	0.000638503318925248
+GO:0046903	secretion	0.000581412487200358
+GO:0048499	synaptic vesicle membrane organization	0.000956335089563122
+GO:0048791	calcium ion-regulated exocytosis of neurotransmitter	0.00310366125139611
+GO:0050804	modulation of chemical synaptic transmission	0.00872464050673308
+GO:0050806	positive regulation of synaptic transmission	0.00872464050673308
+GO:0051046	regulation of secretion	0.00116621367333267
+GO:0051050	positive regulation of transport	0.0096908689370018
+GO:0051938	L-glutamate import	0.00556529586379473
+GO:0060079	excitatory postsynaptic potential	0.0096908689370018
+GO:0071345	cellular response to cytokine stimulus	0.00355801973219545
+GO:0071346	cellular response to type II interferon	6.36141388867195e-05
+GO:0097237	cellular response to toxic substance	0.00180209038498054
+GO:0098657	import into cell	0.00578374987581858
+GO:0098869	cellular oxidant detoxification	0.00872464050673308
+GO:0098900	regulation of action potential	0.00275422705178374
+GO:0098916	anterograde trans-synaptic signaling	6.86402195989856e-05
+GO:0099003	vesicle-mediated transport in synapse	0.00521792457721488
+GO:0099177	regulation of trans-synaptic signaling	0.00872464050673308
+GO:0099500	vesicle fusion to plasma membrane	0.00521792457721488
+GO:0099504	synaptic vesicle cycle	0.00150494989452409
+GO:0099536	synaptic signaling	9.50885206959509e-05
+GO:0099537	trans-synaptic signaling	7.10612744456294e-05
+GO:0099643	signal release from synapse	7.10612744456294e-05
+GO:0120254	olefinic compound metabolic process	0.0093356453658561
+GO:0140029	exocytic process	0.00872464050673308
+GO:0140352	export from cell	0.000900149825510475
+GO:1900048	positive regulation of hemostasis	0.0096908689370018
+GO:1901652	response to peptide	0.00177595240915273
+GO:1903530	regulation of secretion by cell	0.00846357309426273
+GO:1990748	cellular detoxification	0.00592322707650448
+GO:2001237	negative regulation of extrinsic apoptotic signaling pathway	0.0096908689370018
