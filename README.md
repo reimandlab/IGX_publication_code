@@ -6,7 +6,7 @@ This code repository contains the source code and the majority of input and inte
 
 "Cancer genomic alterations and microenvironmental features encode synergistic interactions with disease outcomes" by Bayati et al (2025). 
 
-The source code is written in R, and scripts should be executed in the numeric order of their filenames. For details about each input file—especially those that are initially missing and must be downloaded from publicly available resources—see the README.md in the `/input` folder. To understand the structure and flow of the pipeline, refer to the README.md in the `/code` folder.
+The source code is written in R, and scripts should be executed in the numeric order of their filenames. For details about each input file—especially those that are initially missing and must be downloaded from publicly available resources—see the instructions in the `/input` folder. To understand the structure and flow of the pipeline, refer to the instructions in the `/code` folder.
 
 ### Environment Setup
 
@@ -35,4 +35,4 @@ ActivePathways v2.0.5
 ggplotify v0.1.2
 egg v0.4.5
 ```
-^ See the README.md in the `/code` folder for details about the scripts.
+^ See the instructions in the `/code` folder for details about the scripts.
