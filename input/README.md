@@ -84,7 +84,7 @@ saveRDS(subtypes, "PanCancerAtlas_subtypes.rds")
 ### <a id="8"></a>expr_tpm_20_genes_in_tcga.rds
 Follow the steps below to generate this file:
 1) download the mRNA expression data from TCGAbiolinks with the following arguments: {project = "TCGA-BRCA", data.category = "Transcriptome Profiling", data.type = "Gene Expression Quantification", experimental.strategy = "RNA-Seq", workflow.type = "STAR - Counts"}.
-2) extract the "TPM" data and turn it into a dataframe with columns {gene_name, gene_type, <TCGA barcodes ...>}.
+2) extract the "TPM" data and turn it into a dataframe with columns {"gene_name", "gene_type", "TCGA barcodes..."}.
 3) Filter to only include these 20 genes: {_CTLA4_, _LAG3_, _CD274_, _PDCD1_, _GZMA_, _PRF1_, _MEN1_, _JUN_, _ARID1A_, _VHL_, _FBXW7_, _CASP3_, _NPM1_, _EGFR_, _MYC_, _COX6C_, _HIF1A_, _TP53_, _ERBB2_, _AXIN2_}.
 4) Filter TCGA barcodes to primary tumor samples.
 5) Convert TCGA barcodes to patient-id, i.e. _TCGA-TSS-Participant_.
