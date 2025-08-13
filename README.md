@@ -12,7 +12,7 @@ To understand the structure and flow of the pipeline, see the README in the `cod
 
 The source code is in R (version 4.3.3). The following R package versions were used:
 
-#### For upstream scripts^
+#### For upstream scripts \^
 ``` bash
 data.table v1.15.4 
 maftools v2.18.0 
@@ -20,7 +20,7 @@ survival v3.7.0
 readxl v1.4.3
 PACIFIC v1.0.0 (install from https://github.com/reimandlab/PACIFIC)
 ```
-#### For downstream scripts^
+#### For downstream scripts \^
 ``` bash
 data.table v1.15.4
 survival v3.7.0
@@ -35,4 +35,4 @@ ActivePathways v2.0.5
 ggplotify v0.1.2
 egg v0.4.5
 ```
-^ See the README in the `code` folder.
+\^ See the README in the `code` folder.
