@@ -90,7 +90,7 @@ Follow the steps below to generate this file:
 5) Convert TCGA barcodes to patient-id, i.e. _TCGA-TSS-Participant_.
 6) Remove patient-ids with duplicated samples (if there is any).
 7) Filter patient-ids to those included in the IGX analysis (refer to the file "intermediate/tcga_all_datasets.rds").
-8) Save this dataframe as an RDS object
+8) Save this dataframe as an RDS object in the `input` folder.
 
 
 
