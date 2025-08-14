@@ -11,10 +11,11 @@ List of input files/folders:
 - [TCGA-CDR-SupplementalTableS1.xlsx](#6)
 - [PanCancerAtlas_subtypes.rds](#7)
 - [expr_tpm_20_genes_in_tcga.rds](#8)
-- [NIHMS958212-supplement-2.xlsx](#9)
-- [brca_metabric/](#10)
-- [NIHMS45243-supplement-7/table_S43/](#11)
-- [LM22.txt](#12)
+- [expr_counts_tcga_brca_lumA.rds](#9)
+- [NIHMS958212-supplement-2.xlsx](#10)
+- [brca_metabric/](#11)
+- [NIHMS45243-supplement-7/table_S43/](#12)
+- [LM22.txt](#13)
 
 ---
 
@@ -87,7 +88,7 @@ saveRDS(subtypes, "PanCancerAtlas_subtypes.rds")
 
 ### <a id="8"></a>expr_tpm_20_genes_in_tcga.rds
 Follow the steps below to generate this file:
-1) download the mRNA expression data from TCGAbiolinks with the following arguments: {project = "TCGA-BRCA", data.category = "Transcriptome Profiling", data.type = "Gene Expression Quantification", experimental.strategy = "RNA-Seq", workflow.type = "STAR - Counts"}.
+1) download the mRNA expression data from TCGAbiolinks with the following arguments: {project = "_TCGA-study_", data.category = "Transcriptome Profiling", data.type = "Gene Expression Quantification", experimental.strategy = "RNA-Seq", workflow.type = "STAR - Counts"}. The "_TCGA-study_" should be set separately to each TCGA study used in the anlaysis.
 2) extract the "TPM" data and turn it into a dataframe with columns {"gene_name", "gene_type", "TCGA barcodes..."}.
 3) Filter to only include these 20 genes: {_CTLA4_, _LAG3_, _CD274_, _PDCD1_, _GZMA_, _PRF1_, _MEN1_, _JUN_, _ARID1A_, _VHL_, _FBXW7_, _CASP3_, _NPM1_, _EGFR_, _MYC_, _COX6C_, _HIF1A_, _TP53_, _ERBB2_, _AXIN2_}.
 4) Filter TCGA barcodes to primary tumor samples.
@@ -98,23 +99,36 @@ Follow the steps below to generate this file:
 
 ---
 
-### <a id="9"></a>NIHMS958212-supplement-2.xlsx
+### <a id="9"></a>expr_counts_tcga_brca_lumA.rds
+Follow the steps below to generate this file:
+1) download the mRNA expression data from TCGAbiolinks with the following arguments: {project = "TCGA-BRCA", data.category = "Transcriptome Profiling", data.type = "Gene Expression Quantification", experimental.strategy = "RNA-Seq", workflow.type = "STAR - Counts" }.
+2) extract the "raw counts" and turn the data into a dataframe with columns {"gene_name", "gene_type", "TCGA barcodes..."}.
+3) Filter to protein-coding genes.
+4) Filter TCGA barcodes to primary tumor samples
+5) Convert TCGA barcodes to patient-id, i.e. _TCGA-TSS-Participant_.
+6) Remove patient-ids with duplicated samples (if there is any).
+7) Filter patient-ids to those included in the IGX analysis (refer to the file "intermediate/tcga_all_datasets.rds").
+8) Save this dataframe as an RDS object in the `input` folder.
+
+---
+
+### <a id="10"></a>NIHMS958212-supplement-2.xlsx
 Collection of Immuno-genomic measures for TCGA tumors downloaded from https://doi.org/10.1016/j.immuni.2018.03.023.
 
 ---
 
-### <a id="10"></a>brca_metabric/
+### <a id="11"></a>brca_metabric/
 METABRIC dataset, downloaded from cBioPortal: https://www.cbioportal.org/study/summary?id=brca_metabric.
 The clinical information, copy number alterations and transcriptomic data of the METABRIC were accessed through this directory.
 
 ---
 
-### <a id="11"></a>NIHMS45243-supplement-7/table_S43/
+### <a id="12"></a>NIHMS45243-supplement-7/table_S43/
 The list of patient IDs in _discovery_ and _validation_ cohorts of METABRIC were obtained from the two tables in this folder. Downloaded from https://doi.org/10.1038/nature10983.
 
 ---
 
-### <a id="12"></a>LM22.txt
+### <a id="13"></a>LM22.txt
 The signature matrix for distinguishing 22 human hematopoietic cell subsets in bulk tissues, downloaded from https://doi.org/10.1038/nmeth.3337.
 
 ---
