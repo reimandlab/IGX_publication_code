@@ -37,7 +37,7 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 506: Run differenrial expression analysis for the "luminal A IGX" applied to METABRIC-LumA data.
   - 507: Run differenrial expression analysis for the "luminal A IGX" applied to TCGA-LumA data.
   - 508: Make a combined object of the two differential expression analyses above.
-  - 509: Run pathway enrichment analysis (files used for panel 5F stored in `output/enrichment_map`).
+  - 509: Run pathway enrichment analysis (files used for panel 5F stored in `output/enrichment_map/`).
   - 510: Make KM plot for the luminal A IGX in METABRIC-LumA and for the luminal B IGX in METABRIC-LumB (panels 5B, and S6).
   - 511: Plot _MEN1_ expression with respect to 11q13.1 loss in the two datasets (panel 5C).
   - 512: Plot the Neutrophil levels in the two datasets with respect to the luminal A IGX (panel 5D).
