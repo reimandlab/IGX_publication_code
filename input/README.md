@@ -11,6 +11,7 @@ List of input files/folders:
 - [TCGA-CDR-SupplementalTableS1.xlsx](#6)
 - [PanCancerAtlas_subtypes.rds](#7)
 - [expr_tpm_20_genes_in_tcga.rds](#8)
+- [NIHMS958212-supplement-2.xlsx](#9)
 
 ---
 
@@ -92,10 +93,9 @@ Follow the steps below to generate this file:
 7) Filter patient-ids to those included in the IGX analysis (refer to the file "intermediate/tcga_all_datasets.rds").
 8) Save this dataframe as an RDS object in the `input` folder.
 
+---
 
-
-
-
+### <a id="8"></a>expr_tpm_20_genes_in_tcga.rds
 
 
 
