@@ -17,7 +17,7 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 101: Create the final _catalog of IGXs_ by combining the PACIFIC results across the cohorts and applying FDR correction.
   - 102: Create the supplementary table containing general information about the IGXs in the catalog.
   - 103: Implement functions used for making Kaplan-Meier (KM) plots.
-  - 104: Make KM plots for all IGXs in the catalog (used in Figures 2E,F,G, 5A, and S2, S6).
+  - 104: Make KM plots for all IGXs in the catalog (used in panels 2E,F,G, 5A, S2, S6).
 - Figure 2:
   - 201: Grid plot of the catalog (panel 2A).
   - 202: Plot P-value and logHR values of IGXs vs genomic or immune features (panels 2B,C).
@@ -27,7 +27,7 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 301: Barplots of logHRs per I or G featrures in each IGX (panel 3A).
   - 302: Plot the average values of immune features per each IGX group (panel 3B).
 - Figure 4:
-  - 401: Test for and plot the associations of IGXs with additional genomic and immunogenic characteristics (panels 4A,B,C,D and 5H).
+  - 401: Test for and plot the associations of IGXs with additional genomic and immunogenic characteristics (panels 4A,B,C,D, 5H).
 - Figure 5:
   - 501: Compile the clinical features of METABRIC tumors.
   - 502: Compile the CNA features of METABRIC tumors.
@@ -38,7 +38,7 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 507: Run differenrial expression analysis for the "luminal A IGX" applied to TCGA-LumA data.
   - 508: Make a combined object of the two differential expression analyses above.
   - 509: Run pathway enrichment analysis (files used for panel 5F stored in `output/enrichment_map/`).
-  - 510: Make KM plot for the luminal A IGX in METABRIC-LumA and for the luminal B IGX in METABRIC-LumB (panels 5B, and S6).
+  - 510: Make KM plot for the luminal A IGX in METABRIC-LumA and for the luminal B IGX in METABRIC-LumB (panels 5B, S6).
   - 511: Plot _MEN1_ expression with respect to 11q13.1 loss in the two datasets (panel 5C).
   - 512: Plot the Neutrophil levels in the two datasets with respect to the luminal A IGX (panel 5D).
   - 513: Plot the differentially expressed genes with respect to the luminal A IGX in the two datasets (panel 5E).
