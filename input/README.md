@@ -58,17 +58,17 @@ done
 <hr style="border: 0; height: 1px; background: #eee;" />
 
 ### <a id="4"></a>tcga_code_tables/
-TCGA code tables downloaded from .
+TCGA code tables downloaded from https://gdc.cancer.gov/system/files/public/file/tcga_code_tables.zip
 
 ---
 
 ### <a id="5"></a>TCGA.Kallisto.fullIDs.cibersort.relative.tsv
-Results of CIBERSORT analysis of TCGA tumors, downloaded from .
+Results of CIBERSORT analysis of TCGA tumors, downloaded from https://gdc.cancer.gov/about-data/publications/panimmune.
 
 ---
 
 ### <a id="6"></a>TCGA-CDR-SupplementalTableS1.xlsx
-TCGA clinical information of patients, downloaded from .
+TCGA clinical information of patients, downloaded from https://gdc.cancer.gov/about-data/publications/pancanatlas.
 
 ---
 
@@ -95,8 +95,8 @@ Follow the steps below to generate this file:
 
 ---
 
-### <a id="8"></a>expr_tpm_20_genes_in_tcga.rds
+### <a id="9"></a>NIHMS958212-supplement-2.xlsx
+Collection of Immuno-genomic measures for TCGA tumors downloaded from https://doi.org/10.1016/j.immuni.2018.03.023.
 
-
-
+---
 
