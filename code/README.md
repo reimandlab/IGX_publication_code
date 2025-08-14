@@ -17,7 +17,9 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 101: Create the final _catalog of IGXs_ by combining the PACIFIC results across the cohorts and applying FDR correction. Store the catalog in a specially structured object.
   - 102: Create the supplementary table containing general information about the IGXs in the catalog.
   - 103: Implement functions used for making Kaplan-Meier (KM) plots.
-  - 104: Make KM plots for all IGXs in the catalog.
+  - 104: Make KM plots for all IGXs in the catalog (used in Figures 2E,F,G, 5A, and S2).
 - Figure 2:
-  - 201: Grid plot of the catalog (panel A).
-  - 202: Plot P-value and logHR values of IGXs vs G or I features (panels B & C).
+  - 201: Grid plot of the catalog (A).
+  - 202: Plot P-value and logHR values of IGXs vs genomic or immune features (B, C).
+  - 203: Plot fraction of cancer samples in each IGX (D).
+  - 204: Plot expression of CNA-affected genes for the CNA features involved in IGXs (H).
