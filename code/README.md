@@ -3,7 +3,7 @@
 ## Source code scripts
 The scripts run in numeric order of the filenames. The intermediate files are stored in the `intermediate` folder. The figure panels and the supplementary table are stored in the `output` folder.
 
-**_Upstream scripts_**
+**Upstream scripts**
 - 001: Compile the mutation features of TCGA tumors.
 - 002: Compile the copy number alteration (CNA) features of TCGA tumors.
 - 003: Compile the immune features of TCGA tumors.
@@ -12,7 +12,7 @@ The scripts run in numeric order of the filenames. The intermediate files are st
 - 006: Run PACIFIC-step1. Accumulates the required number of feature selection iterations in the designated intermediate folder.
 - 007: Run PACIFIC-step2. Aggregates the feature selection iterations and stores the _candidate IGXs_ for each cohort.
 
-**_Downstream scripts_**
+**Downstream scripts**
 - Catalog of 34 IGXs:
   - 101: Create the final _catalog of IGXs_ by combining the PACIFIC results across the cohorts and applying FDR correction. Store the catalog in a specially structured object.
   - 102: Create the supplementary table containing general information about the IGXs in the catalog.
@@ -37,9 +37,15 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 506: Run differenrial expression analysis for the "luminal A IGX" applied to METABRIC-LumA data.
   - 507: Run differenrial expression analysis for the "luminal A IGX" applied to TCGA-LumA data.
   - 508: Make a combined object of the two differential expression analyses above.
-  - 509: Run the integrated pathway enrichment analysis using ActivePathways.
+  - 509: Run the integrated pathway enrichment analysis using ActivePathways (files used for panel 5F stored in `output/enrichment_map`).
   - 510: Make KM plot for the luminal A IGX in METABRIC-LumA and for the luminal B IGX in METABRIC-LumB (panels 5B, and S6).
   - 511: Plot _MEN1_ expression with respect to 11q13.1 loss in the two datasets (panel 5C).
   - 512: Plot the Neutrophil levels in the two datasets with respect to the luminal A IGX (panel 5D).
-  - 513: Plot of the differentially expressed genes with respect to the luminal A IGX in the two datasets (panel 5E).
-  - 
+  - 513: Plot the differentially expressed genes with respect to the luminal A IGX in the two datasets (panel 5E).
+  - 514: Plot the genes contributing to the enrichment of selected pathways (panel 5G).
+- Remaining supplementary figures:
+  - 601: plot expression of _EGFR_ with respect to the IGX found in TCGA-CESC (panel S4).
+  - 602: Plot genes down-regulated by 11q13.1 deletion in the two luminal A breast cancer datasets (panel S5).
+  - 602: Plot the distributions of immune cell levels from CIBERSORT analyses, and the median threshold used for defining the binary immune features in cohorts of individual cancer types (panel S3).
+ 
+
