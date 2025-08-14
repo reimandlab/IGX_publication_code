@@ -14,6 +14,7 @@ List of input files/folders:
 - [NIHMS958212-supplement-2.xlsx](#9)
 - [brca_metabric/](#10)
 - [NIHMS45243-supplement-7/table_S43/](#11)
+- [LM22.txt](#12)
 
 ---
 
@@ -104,12 +105,17 @@ Collection of Immuno-genomic measures for TCGA tumors downloaded from https://do
 
 ### <a id="10"></a>brca_metabric/
 METABRIC dataset, downloaded from cBioPortal: https://www.cbioportal.org/study/summary?id=brca_metabric.
-The clinical information, copy number alterations and transcriptomic data of METABRIC are accessed through this directory.
+The clinical information, copy number alterations and transcriptomic data of the METABRIC were accessed through this directory.
 
 ---
 
 ### <a id="11"></a>NIHMS45243-supplement-7/table_S43/
 The list of patient IDs in _discovery_ and _validation_ cohorts of METABRIC were obtained from the two tables in this folder. Downloaded from https://doi.org/10.1038/nature10983.
+
+---
+
+### <a id="12"></a>LM22.txt
+The signature matrix for distinguishing 22 human hematopoietic cell subsets in bulk tissues, downloaded from https://doi.org/10.1038/nmeth.3337.
 
 ---
 
