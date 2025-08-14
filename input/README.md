@@ -18,6 +18,7 @@ List of input files/folders:
 - [LM22.txt](#13)
 - [hsapiens.REAC_GOBP.name.gmt](#14)
 - [Cosmic_CancerGeneCensus_v102_GRCh37.tsv](#15)
+- [OncoKB_cancerGeneList.tsv](#16)
 
 ---
 
@@ -144,3 +145,6 @@ GMT file containing GO:BP (biological process) and Reactome terms, downloaded fr
 Cancer Gene Census v102 GRCh37, downloaded from https://cancer.sanger.ac.uk/cosmic/download/cosmic/v102/cancergenecensus.
 
 ---
+
+### <a id="16"></a>OncoKB_cancerGeneList.tsv
+OncoKB cancer gene list, downloaded from https://www.oncokb.org/cancer-genes, on August 5th, 2025.
