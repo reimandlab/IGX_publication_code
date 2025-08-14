@@ -1,4 +1,4 @@
-# Barplots average of immune features per each IGX group 
+# Plot the average values of immune features per each IGX group.
 
 message('loading libraries')
 library(data.table)
