@@ -16,6 +16,8 @@ List of input files/folders:
 - [brca_metabric/](#11)
 - [NIHMS45243-supplement-7/table_S43/](#12)
 - [LM22.txt](#13)
+- [hsapiens.REAC_GOBP.name.gmt](#14)
+- [Cosmic_CancerGeneCensus_v102_GRCh37.tsv](#15)
 
 ---
 
@@ -30,7 +32,7 @@ Download this file from https://gdc.cancer.gov/about-data/publications/pancanatl
 ---
 
 ### <a id="3"></a>tcga_cna_gistic/
-Results of GISTIC2 analysis of TCGA tumors. With the current directory being the `input` folder, run the following bash script to generate the `tcga_cna_gistic` folder. The data is downloaded from FireBrowse.
+Results of GISTIC2 analysis of TCGA tumors. With the current directory being the `input` folder, run the following bash script to generate the `tcga_cna_gistic` folder. The data is downloaded from _FireBrowse_.
 ```bash
 #!/usr/bin/env bash
 
@@ -133,6 +135,12 @@ The signature matrix for distinguishing 22 human hematopoietic cell subsets in b
 
 ---
 
+### <a id="14"></a>hsapiens.REAC_GOBP.name.gmt
+GMT file containing GO:BP (biological process) and Reactome terms, downloaded from _g:Profiler_ on August 5th, 2025.
 
+---
 
+### <a id="15"></a>Cosmic_CancerGeneCensus_v102_GRCh37.tsv
+Cancer Gene Census v102 GRCh37, downloaded from https://cancer.sanger.ac.uk/cosmic/download/cosmic/v102/cancergenecensus.
 
+---
