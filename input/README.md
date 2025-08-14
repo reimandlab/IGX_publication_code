@@ -121,8 +121,7 @@ Collection of Immuno-genomic measures for TCGA tumors downloaded from https://do
 ---
 
 ### <a id="11"></a>brca_metabric/
-METABRIC dataset, downloaded from cBioPortal: https://www.cbioportal.org/study/summary?id=brca_metabric.
-The clinical information, copy number alterations and transcriptomic data of the METABRIC were accessed through this directory.
+The folder containing the METABRIC dataset, including clinical information, copy number alterations and transcriptomic data, downloaded from cBioPortal: https://www.cbioportal.org/study/summary?id=brca_metabric.
 
 ---
 
