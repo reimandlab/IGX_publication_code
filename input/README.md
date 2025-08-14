@@ -12,6 +12,7 @@ List of input files/folders:
 - [PanCancerAtlas_subtypes.rds](#7)
 - [expr_tpm_20_genes_in_tcga.rds](#8)
 - [NIHMS958212-supplement-2.xlsx](#9)
+- [brca_metabric/](#10)
 
 ---
 
@@ -99,4 +100,13 @@ Follow the steps below to generate this file:
 Collection of Immuno-genomic measures for TCGA tumors downloaded from https://doi.org/10.1016/j.immuni.2018.03.023.
 
 ---
+
+### <a id="10"></a>brca_metabric/
+METABRIC dataset, downloaded from cBioPortal: https://www.cbioportal.org/study/summary?id=brca_metabric.
+The clinical information, copy number alterations and transcriptomic data of METABRIC are accessed through this directory.
+
+---
+
+
+
 
