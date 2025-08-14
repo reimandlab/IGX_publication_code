@@ -13,6 +13,7 @@ List of input files/folders:
 - [expr_tpm_20_genes_in_tcga.rds](#8)
 - [NIHMS958212-supplement-2.xlsx](#9)
 - [brca_metabric/](#10)
+- [NIHMS45243-supplement-7/table_S43/](#11)
 
 ---
 
@@ -104,6 +105,11 @@ Collection of Immuno-genomic measures for TCGA tumors downloaded from https://do
 ### <a id="10"></a>brca_metabric/
 METABRIC dataset, downloaded from cBioPortal: https://www.cbioportal.org/study/summary?id=brca_metabric.
 The clinical information, copy number alterations and transcriptomic data of METABRIC are accessed through this directory.
+
+---
+
+### <a id="11"></a>NIHMS45243-supplement-7/table_S43/
+The list of patient IDs in _discovery_ and _validation_ cohorts of METABRIC were obtained from the two tables in this folder. Downloaded from https://doi.org/10.1038/nature10983.
 
 ---
 
