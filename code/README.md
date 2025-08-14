@@ -14,7 +14,7 @@ The scripts run in numeric order of the filenames. The intermediate files are st
 
 **Downstream scripts**
 - Catalog of 34 IGXs:
-  - 101: Create the final _catalog of IGXs_ by combining the PACIFIC results across the cohorts and applying FDR correction. Store the catalog in a specially structured object.
+  - 101: Create the final _catalog of IGXs_ by combining the PACIFIC results across the cohorts and applying FDR correction.
   - 102: Create the supplementary table containing general information about the IGXs in the catalog.
   - 103: Implement functions used for making Kaplan-Meier (KM) plots.
   - 104: Make KM plots for all IGXs in the catalog (used in Figures 2E,F,G, 5A, and S2, S6).
