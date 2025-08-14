@@ -9,8 +9,8 @@ The scripts run in numeric order of the filenames. The intermediate files are st
 - 003: Compile the immune features of TCGA tumors.
 - 004: Compile the clinical features of TCGA tumors.
 - 005: Create the object holding all features of tumors in each TCGA cohort (cancer type) separately.
-- 006: Run PACIFIC-step1. Accumulates the required number of feature selection iterations in the designated intermediate folder.
-- 007: Run PACIFIC-step2. Aggregates the feature selection iterations and stores the _candidate IGXs_ for each cohort.
+- 006: Run PACIFIC-step1. Accumulate the required number of feature selection iterations in the designated intermediate folder.
+- 007: Run PACIFIC-step2. Aggregate the feature selection iterations and stores the _candidate IGXs_ for each cohort.
 
 **Downstream scripts**
 - Catalog of 34 IGXs:
