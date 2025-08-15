@@ -4,8 +4,8 @@
 
 List of input files/folders:
 - [NIHMS948705-supplement-8.xlsx](#1)
-- [mc3.v0.2.8.PUBLIC.maf](#2)
-- [tcga_cna_gistic/](#3)
+- [mc3.v0.2.8.PUBLIC.maf](#2) (_missing; should be created_)
+- [tcga_cna_gistic/](#3) (_missing; should be created_)
 - [tcga_code_tables/](#4)
 - [TCGA.Kallisto.fullIDs.cibersort.relative.tsv](#5)
 - [TCGA-CDR-SupplementalTableS1.xlsx](#6)
@@ -13,7 +13,7 @@ List of input files/folders:
 - [expr_tpm_20_genes_in_tcga.rds](#8)
 - [expr_counts_tcga_brca_lumA.rds](#9)
 - [NIHMS958212-supplement-2.xlsx](#10)
-- [brca_metabric/](#11)
+- [brca_metabric/](#11) (_missing; should be created_)
 - [NIHMS45243-supplement-7/table_S43/](#12)
 - [LM22.txt](#13)
 - [hsapiens.REAC_GOBP.name.gmt](#14)
