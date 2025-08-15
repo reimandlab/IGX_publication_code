@@ -1,5 +1,0 @@
-Replacing the folder "tcga_cna_gistic" due to the original folder being too large.
-
-Run "GENERATE_tcga_cna_gistic.sh" to generate (download) this folder.
-
-This data was obtained from FireBrowse.
