@@ -1,3 +1,0 @@
-The file "PanCancerAtlas_subtypes.rds" was generated using the following R code:
-
->>> saveRDS(TCGAbiolinks::PanCancerAtlas_subtypes(), 'PanCancerAtlas_subtypes.rds')
