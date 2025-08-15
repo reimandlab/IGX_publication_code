@@ -1,6 +1,0 @@
-Replacing "brca_metabric" due to the original folder being too large.
-
-The original folder was downloaded from cBioPortal on 1 August 2025, using this link: https://cbioportal-datahub.s3.amazonaws.com/brca_metabric.tar.gz
-
-Uncompress the .tar.gz file.
-
