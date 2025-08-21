@@ -24,7 +24,7 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 203: Plot fraction of cancer samples in each IGX (panel 2D).
   - 204: Plot expression of CNA-affected genes for the CNA features involved in IGXs (panel 2H).
 - Figure 3:
-  - 301: Barplots of logHRs per I or G featrures in each IGX (panel 3A).
+  - 301: Barplots of logHRs per individual immune and genomic featrures in each IGX (panel 3A).
   - 302: Plot the average values of immune features per each IGX group (panel 3B).
 - Figure 4:
   - 401: Test for and plot the associations of IGXs with additional genomic and immunogenic characteristics (panels 4A,B,C,D, 5H).
