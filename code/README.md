@@ -44,8 +44,8 @@ The scripts run in numeric order of the filenames. The intermediate files are st
   - 513: Plot the differentially expressed genes with respect to the luminal A IGX in the two datasets (panel 5E).
   - 514: Plot the genes contributing to the enrichment of selected pathways (panel 5G).
 - Remaining supplementary figures:
-  - 601: plot expression of _EGFR_ with respect to the IGX found in TCGA-CESC (panel S4).
+  - 601: plot _EGFR_ expression with respect to the IGX found in TCGA-CESC (panel S4).
   - 602: Plot genes down-regulated by 11q13.1 deletion in the two luminal A breast cancer datasets (panel S5).
-  - 602: Plot the distributions of immune cell levels from CIBERSORT analyses, and the median threshold used for defining the binary immune features in cohorts of individual cancer types (panel S3).
+  - 603: Plot the distributions of immune cell levels from CIBERSORT analyses, and the median threshold used for defining the binary immune features in cohorts of individual cancer types (panel S3).
  
 
