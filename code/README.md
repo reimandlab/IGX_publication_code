@@ -10,11 +10,11 @@ The scripts run in numeric order of the filenames. The intermediate files are st
 - 004: Compile the clinical features of TCGA tumors.
 - 005: Create the object holding all features of tumors in each TCGA cohort (cancer type) separately.
 - 006: Run PACIFIC-step1. Accumulate the required number of feature selection iterations in the designated intermediate folder.
-- 007: Run PACIFIC-step2. Aggregate the feature selection iterations and store the _candidate IGXs_ for each cohort.
+- 007: Run PACIFIC-step2. Aggregate the feature selection iterations and store the "candidate IGXs" for each cohort.
 
 **Downstream scripts**
 - Catalog of 34 IGXs:
-  - 101: Create the final _catalog of IGXs_ by combining the PACIFIC results across the cohorts and applying FDR correction.
+  - 101: Create the "catalog of IGXs" by combining the PACIFIC results across the cohorts and applying FDR correction.
   - 102: Create the supplementary table containing general information about the IGXs in the catalog.
   - 103: Implement functions used for making Kaplan-Meier (KM) plots.
   - 104: Make KM plots for all IGXs in the catalog (used in panels 2E,F,G, 5A, S2, S6).
