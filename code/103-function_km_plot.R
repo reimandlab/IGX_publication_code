@@ -37,8 +37,8 @@ get_km_df <- function(fit, # requires "survfit" object
 
 
 
-# function to make KM and HR plots for an element of the catalog.
-# the previous script explains what we mean by "and element of the catalog".
+# function to make KM plots for an element of the catalog.
+# the previous script explains what we mean by "an element of the catalog".
 
 get_km_plots_for_a_catalog_element <- function(ct, consortium='TCGA', sig='P'){ # sig: P or FDR
     
