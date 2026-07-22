@@ -4,7 +4,7 @@
 
 This code repository contains the source code and the majority of input and intermediate files to generate results and figures of the manuscript: 
 
-"Cancer genomic alterations and microenvironmental features encode synergistic interactions with disease outcomes" by Bayati et al (2025). 
+"Cancer genomic alterations and microenvironmental features encode synergistic interactions with disease outcomes" by Bayati et al. 2025. DOI: https://doi.org/10.1158/1541-7786.MCR-25-0475
 
 To understand the structure and flow of the pipeline, see the README in the `code` folder. For instructions and details about the input files—especially those that are initially missing and must be downloaded from publicly available resources—refer to the README in the `input` folder.
 
